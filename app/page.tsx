@@ -97,7 +97,10 @@ export default function Home() {
                 fullWidth
                 value={name}
                 onChange={(e) => setName(e.target.value)}
-                sx={{bgcolor:"white"}}
+                sx={{
+                  borderRadius:"20px",
+                  bgcolor:"white"
+                }}
               />
               <TextField 
                 id="email-field" 
