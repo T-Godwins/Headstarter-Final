@@ -98,7 +98,7 @@ export default function Home() {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 sx={{
-                  borderRadius:"20px",
+                  borderRadius:"10px",
                   bgcolor:"white"
                 }}
               />
